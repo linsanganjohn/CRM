@@ -1,0 +1,52 @@
+body{
+	margin-top:90px;
+	height:100%;
+	width:100%;
+background-image:url("demo/qw.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+	
+	}
+frm1{
+	
+	float:left;
+	margin-right:30px;
+	margin-top:10px;
+	padding-left:20px;
+	padding-top:100px;
+	padding-right:400px;
+	text-align:center;
+	border: red;
+    background-color:  <?php echo $bg_color; ?>";
+
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+    width: 30%;
+}
+frm1 p{
+	font-family: verdana;
+    font-size: 20px;
+	color:darkgray;
+}
+#marg{
+	background-color:white;
+	padding:20px;
+	border-radius:30px;
+	border:1.5px solid blue;
+	font-size:18px;
+	font-weight:bold;
+	opacity: 0.7;
+		filter: alpha(opacity=40);
+}
+#marg:hover{
+	opacity:1.0;
+	filter:alpha(opacity=30);
+}
+
+
+#butt{
+	background-color:#1aa4ba;
+	border-radius:7px;
+	border:1px solid #2623a3;
+	width:100px;
+}
